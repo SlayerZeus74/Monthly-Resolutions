@@ -1,0 +1,117 @@
+/* 
+Project Name: Monthly Resolutions
+Client: One Month
+Author: Christopher Castig | @castig
+*/
+
+
+/*----------------------------------------------------------------------------- 
+01=BASE   
+-----------------------------------------------------------------------------*/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+.clear {
+	clear: both;
+}
+
+
+/*----------------------------------------------------------------------------- 
+02=LAYOUT  
+-----------------------------------------------------------------------------*/
+#container{
+ 
+  width: auto;
+  margin: 0 auto 0 auto;
+}
+
+.fsize{
+     font-size: 12px;
+}
+.fsize2{
+   font-size: 45px;
+}
+
+h3, h1{
+   margin: 0;
+   font-family: 'Lato', sans-serif;
+}
+
+header{
+   padding-left: 250px;
+   padding-top: 50px;
+   font-family: 'lato';
+  
+}
+
+body {
+     background: url('../images/notebook.png'); /* add a fallback color of #d6d6d6 */
+     color: #000000;
+     font-family: 'Lato', sans-serif;
+     line-height: 1.7; /* line-height is unit-less */
+     font-size: 100%;
+    }  
+/*----------------------------------------------------------------------------- 
+03=MAIN  
+-----------------------------------------------------------------------------*/
+
+main{
+     width: auto;
+     padding: 0 20px 50px 20px;
+      margin-left: 250px;
+      margin-top: 20px;
+     float: left;  
+     
+     background-color: white;
+    
+     
+     
+}
+
+#sidebar{
+     padding: 10px 20px 70px 20px;
+     background-color: white;
+     width: 300px;
+     margin: 20px auto 0 10px;
+     float: left;    
+   border-left: 2.5px solid rgb(192, 190, 190);
+   border-bottom: 2.5px solid rgb(192, 190, 190);
+    
+}
+blockquote{
+     border-left: 3.5px solid rgb(192, 190, 190);
+     padding: 0 6px 0 6px;
+     margin: 0 auto 0px 2px;
+     font-style: italic;
+}
+
+footer{
+     padding-left: 250px;
+}
+a{
+    color: red ;
+}
+
+.fontp{
+     font-style: normal;
+     font-family: 'Open Sans', sans-serif;
+     font-size: small;
+}
+.color{
+     color:  rgb(192, 190, 190);
+}
+.fonth{
+    font-family: 'Ubuntu Condensed', sans-serif; 
+    
+}
+.circular--square { border-radius: 50%; 
+     border: 2px;
+     border-color: rgb(192, 190, 190);
+     border-width: 4px;
+     border-style: groove;
+}
